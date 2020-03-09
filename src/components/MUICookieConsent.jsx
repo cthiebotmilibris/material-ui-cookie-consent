@@ -164,7 +164,7 @@ export default class MUICookieConsent extends React.Component<Props, State> {
               ...React.Children.toArray(actions),
               <Button
                 key="accept"
-                color="secondary"
+                color="primary"
                 size="small"
                 onClick={this.handleAccept}
               >
@@ -191,7 +191,7 @@ export default class MUICookieConsent extends React.Component<Props, State> {
                 </DialogContent>
                 <DialogActions>
                   {actions}
-                  <Button onClick={this.handleAccept} color="secondary">
+                  <Button onClick={this.handleAccept} color="primary">
                     {acceptButtonLabel}
                   </Button>
                 </DialogActions>
